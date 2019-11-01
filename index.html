@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NPS API Exercise</title>
+</head>
+<body>
+    <main>
+        <h1>NPS Park Search:</h1>
+        <form>
+            <label for="states">States (Use 2-digit state code. Separate states by spaces or commas)* :</label>
+            <input type="text" name="states" id="states" placeholder="Illinois" required="required">
+            <label for="maxNumber">Max. Number of Results:</label>
+            <input type="number" name="maxNumber" id="maxNumber" placeholder=10>
+            <input type="submit" value="Search">
+        </form>
+        <section class="results"></section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
