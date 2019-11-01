@@ -8,7 +8,7 @@ The project can be demod at the following GitHib Page: https://wademegan.github.
 
 ## Files
 
-This project consisted of: index.html, index.js, main.css, and README.md.
+This project consists of: index.html, index.js, and README.md.
 
 ## Languages
 
